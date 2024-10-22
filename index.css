@@ -1,0 +1,58 @@
+body {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(to left, #cbe4c6 5%, #baebc6d7 100%);
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #99e077;
+    border-radius: 4px;
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid #646464;
+    border-radius: 4px;
+    background-color: #ade791;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #9ac088;
+}
+
+.card {
+    border: 1px solid #646464;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(219, 18, 18, 0.1);
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #aecaa1;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 18px;
+    margin: 5px 0;
+}
